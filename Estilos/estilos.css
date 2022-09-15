@@ -176,7 +176,7 @@
 
     .galeria:hover {
         border: 1px solid #777;  /*Al pasar con el mouse se crea un borde*/
-        transform: scale(1.9); /*Amplia la imagen a una escala mayor */
+        transform: scale(1.2); /*Amplia la imagen a una escala mayor */
     }
 
     .foto {

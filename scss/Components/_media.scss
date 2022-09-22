@@ -1,0 +1,88 @@
+
+@media (min-width: 850px){
+    header{
+        position:relative;
+        width: 100%;
+    }
+    header .contenedor-principl{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #imagen-principal h1{
+        font-size: 5em;
+    }
+
+    #somos-fotoblog .contenedor-cuerpo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-fotoblog .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-fotoblog h2{
+        margin-top: 0px;
+    }
+
+    #somos-fotoblog .img-container{
+        background-image: url("../Imagenes/Acerca/a0.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 380px;
+        width: 450px;
+        border-radius: 25px; 
+    }
+    /* Sector Acerca de Nosotros */
+    #somos-fotoblog .img-container1{
+        background-image: url("../Imagenes/Acerca/a00.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 380px;
+        width: 450px;
+        border-radius: 25px; 
+    }
+    #somos-fotoblog .img-container2{
+        background-image: url("../Imagenes/a0.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 380px;
+        width: 450px;
+        margin-top: 3%;
+        border-radius: 25px; 
+    }
+
+    #somos-fotoblog .texto2{
+        width: 70%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 10px;
+        margin-top: -1%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        line-height: 1.5; /* Interlineado */
+    }
+
+    /* Fin de Acerca de Nosotros */
+    footer .contenedor_final{
+        justify-content: flex-end;
+    }
+    .Sector-Fotos{
+        margin-top: -2%;
+    }
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "desarrollofinal",
+  "version": "1.0.0",
+  "description": "Scss",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/estilos.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGareis25/Coder-House-Desarrollo-Web.git"
+  },
+  "author": "Gareis Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloGareis25/Coder-House-Desarrollo-Web/issues"
+  },
+  "homepage": "https://github.com/PabloGareis25/Coder-House-Desarrollo-Web#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

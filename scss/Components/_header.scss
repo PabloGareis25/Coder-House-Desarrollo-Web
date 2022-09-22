@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth; /* La caja se desplaza suavemente */
+}
+
+body{
+    font-family: 'Roboto', sans-serif; /* Fuente General */
+    margin: 0;
+}
+
+/* Configuración del menú selectivo */
+header .contenedor-principl{
+    display: flex; /* Clase N°5 ---> Incorporación de Contenidos Rubrica */
+    flex-direction: column; /* cómo coloco los objetos flexibles en el contenedor */
+    align-items: center; /* Alineación del contenido */
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: #395080;
+}
+
+header{
+    background-color: rgb(245,245,245); /* Color de Fondo */
+}
+
+header .logo{ /* Configuración del Logo de la Página */
+    margin: 0;
+    padding: 15px 25px;
+    font-weight: bold;
+    color: #395080;
+    font-size: 1.6em;
+}

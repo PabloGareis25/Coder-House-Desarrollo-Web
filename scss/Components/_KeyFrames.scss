@@ -1,0 +1,17 @@
+@keyframes cambio_imagen{
+    0%{
+        background-image: url("../Imagenes/KeyFrames/a1.jpg");
+    }
+    25%{
+        background-image: url("../Imagenes/KeyFrames/a2.jpg");
+    }
+    50%{
+        background-image: url("../Imagenes/KeyFrames/a3.jpg");
+    }
+    75%{
+        background-image: url("../Imagenes/KeyFrames/a4.jpg");
+    }
+    100%{
+        background-image: url("../Imagenes/KeyFrames/a5.jpg");
+    }
+}

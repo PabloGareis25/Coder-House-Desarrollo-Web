@@ -1,0 +1,35 @@
+
+/* ---> +++ »»»» Configuración de la Página "Contacto" «««« +++ <--- */
+.formulario{
+    margin: auto;
+    width: 70%;
+    height: 55%;
+    line-height:35px;
+    background-color:rgb(245,245,245);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    margin-top:3%;
+    border: 2px solid #395080;
+}
+
+.titulo h2{
+    color: #395780;
+    font-size: 30px;
+    
+}
+
+.titulo p{
+    font-size: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px 7px;
+}
+
+label{
+    color: black;
+}
+

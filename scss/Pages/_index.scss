@@ -78,10 +78,10 @@
 
 
 /* ---> Especificacón Generica de los elementos <--- */
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
+h1{ font-size:$titulos;}
+h2{ font-size: $subtitulos;}
+h3{ font-size: $subtitulosh3;}
+p{ font-size: $parrafos;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 

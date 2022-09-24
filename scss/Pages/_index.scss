@@ -108,13 +108,7 @@ li{ font-size: 1.25em;}
     border: 2px solid #395780;
 }
 
-#contenedor-fotos {
-    display: flex;	 /*Utilziamos el display flex visto en la clase 5*/
-    flex-flow: row wrap; /* Colocamos las fotos en linea*/
-    justify-content: center; /*centramos los elementos*/
-    align-items: center;
-    margin-top: 1%; /*Margen Superior 50px*/
-}
+
 
 .ultima-foto{
     color: #395780;

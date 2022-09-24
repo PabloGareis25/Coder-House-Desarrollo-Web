@@ -1,0 +1,17 @@
+$redes: ( 
+        instagram: #DD2A7B,
+        facebook:  #395080,
+        twitter: #00acee
+); 
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+ }
+ 
+
+
+
+
+ 

@@ -1,0 +1,11 @@
+@mixin flex-row-center-justify-content-margin-top{
+    display: flex;	 /*Utilziamos el display flex visto en la clase 5*/
+    flex-flow: row wrap; /* Colocamos las fotos en linea*/
+    justify-content: center; /*centramos los elementos*/
+    align-items: center;
+    margin-top: 1%; /*Margen Superior 50px*/
+}
+
+.contenedor-fotos {
+   @include flex-row-center-justify-content-margin-top;
+}

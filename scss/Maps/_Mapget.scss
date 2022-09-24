@@ -1,0 +1,15 @@
+
+$estilos: (
+    color: #3673D9,
+    centro: center,
+    tFuente: 15px,
+    borde: 1px solid black,
+  );
+  
+  .maps{
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    font-size:map-get($estilos, tFuente);
+    border-radius: map-get($estilos, borde);
+  }
+  

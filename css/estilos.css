@@ -33,7 +33,8 @@ header a {
   color: black; }
 
 header a:hover {
-  color: #395080; }
+  color: #395080;
+  text-decoration: none;}
 
 header {
   background-color: whitesmoke;

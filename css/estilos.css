@@ -47,21 +47,50 @@ header .logo {
   color: #395080;
   font-size: 1.6em; }
 
-footer {
-  background-color: #dcddee;
-  margin-top: 1%; }
+  footer {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    bottom: 0;
+    background: rgb(245,245,245);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    padding: 5px;
+  }
+  .text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px auto;
+  }
 
-footer .contenedor_final {
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; }
-
-.contenedor_final h3 {
-  font-size: 15px;
-  text-align: center;
-  margin: auto;
-  color: #395080; }
+  .list-footer {
+    margin: 10px auto;
+    display: flex;
+    list-style-type: none;
+  }
+  .list-footer li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .list-footer li a:hover{color: var(--mycolor);}
+  
+  .social-media {
+    margin: 10px auto;
+  }
+  .social-media i {
+    padding: 10px;
+    font-size: 20px;
+    color: #395080;
+  }
+  .social-media i:hover{
+    color: #00acee;
+  }
 
 .buttons {
   min-width: 300px;
@@ -136,7 +165,10 @@ footer .contenedor_final {
   footer .contenedor_final {
     justify-content: flex-end; }
   .Sector-Fotos {
-    margin-top: -2%; } }
+    margin-top: -2%;
+    margin-bottom: -150px; 
+    } 
+  }
 
 @keyframes cambio_imagen {
   0% {
@@ -257,14 +289,18 @@ p {
   font-size: 1.25em; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+list-style-type: none; }
 
 li {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+list-style-type: none; }
+
 
 /* FlexBox */
 .Sector-Fotos {
   margin-top: -2%;
+  margin-bottom: 6%;
   /*  Ubicación del Elemento*/ }
 
 .Sector-Fotos h2 {
@@ -283,7 +319,8 @@ li {
   height: 350px;
   margin-top: 10%;
   margin-left: 15%;
-  border: 2px solid #395780; }
+  border: 2px solid #395780; 
+  }
 
 #contenedor-fotos {
   display: flex;
@@ -353,7 +390,8 @@ li {
  'img1 img4 img3 img3'
  'img5 img5 img7 img7'
  'img5 img5 img6 img8';
-  gap: 0.5em; }
+  gap: 0.5em; 
+  margin-bottom: 5%;}
 
 .galeria_imagenes {
   position: relative;
@@ -475,4 +513,15 @@ label {
   Text-align:flex-end;
   margin-bottom: -10px;
   Font-size:12px;
+}
+
+
+@media(max-width:810px){
+  .list-footer li a {
+      padding: 15px;
+      font-size: 15px;
+  }
+  .social-media i {
+      padding: 10px;
+  }
 }

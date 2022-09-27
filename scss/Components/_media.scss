@@ -78,11 +78,23 @@
     }
 
     /* Fin de Acerca de Nosotros */
-    footer .contenedor_final{
-        justify-content: flex-end;
-    }
+    // footer .contenedor_final{
+    //     justify-content: flex-end;
+    // }
     .Sector-Fotos{
         margin-top: -2%;
+        margin-bottom: 5%;
     }
 
+}
+
+
+@media(max-width:810px){
+    .list-footer li a {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .social-media i {
+        padding: 10px;
+    }
 }
